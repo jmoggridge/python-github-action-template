@@ -6,7 +6,7 @@ on:
       - "main"
 
   schedule:
-    - cron: '23 10 * * *' # At 00:00 on Monday
+    - cron: '0 */1 * * *' # every hour
 
 jobs:
   build:
